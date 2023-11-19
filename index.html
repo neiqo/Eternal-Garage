@@ -1,23 +1,179 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vintage Repair Workshop</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/website_icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/website_icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/website_icon/favicon-16x16.png"
+    />
+    <title>Eternal Garage - Home</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+    </style>
   </head>
 
   <body>
     <header>
-      <h1>Vintage Repair Workshop</h1>
-      <p>
-        <!--placeholder-->
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
+      <h1 class="mainlogo">Eternal Garage</h1>
+      <nav>
+        <ul>
+          <li class="navitem"><a href="#">Home</a></li>
+          <li class="navitem dropdown">
+            <a href="#">Services<span class="dropdown-icon"> ▼</span></a>
+            <div class="dropdown-content">
+              <a href="#">Events</a>
+              <a href="#">Sourcing</a>
+              <a href="#">Transport</a>
+              <a href="#">Detailing</a>
+              <a href="#">Storage</a>
+            </div>
+          </li>
+          <li class="navitem"><a href="#">Workshop</a></li>
+          <li class="navitem"><a href="#">Projects</a></li>
+          <li class="navitem"><a href="#">About</a></li>
+          <li class="navitem"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+    <content>
+      <div class="bigimagesection">
+        <img class="bigimage" src="images/home/carcollection.jpeg" />
+        <div class="bigimagefilter"></div>
+        <div class="bigimagetext">
+          We don't just fix cars, we revive legends.
+        </div>
+      </div>
+
+      <div class="paragraph">
+        <h1>Preserving History, Creating Eternity.</h1>
+        <p>
+          In the heart of Eternal Garage, our mission extends beyond the
+          mechanical realm; it's a commitment to "Preserving History, Creating
+          Eternity." Here, we embrace the profound responsibility of
+          safeguarding the rich heritage of classic automobiles. Each vintage
+          car that graces our workshop is not just a mode of transportation;
+          it's a living chronicle of automotive history waiting to be unveiled.
+          Through meticulous restoration and craftsmanship, we breathe new life
+          into these time-worn legends, reviving their essence and perpetuating
+          their stories for generations to come. Our workshop is a testament to
+          the enduring legacy of classic cars, where the echoes of the past
+          resonate with every turn of the wrench and the gentle hum of
+          revitalization.
+        </p>
+      </div>
+
+      <div class="keyservices">
+        <div class="keyservicessection">
+          <img
+            class="keyservicesimg"
+            src="images/home/completerestorationhome.jpg"
+          />
+          <h1 class="keyservicestitle">Complete Restoration</h1>
+          <p class="keyservicestext">
+            Immerse your classic in the art of restoration with our dedicated
+            team, where passion meets precision to revive every curve and
+            contour.
+          </p>
+        </div>
+        <div class="keyservicessection">
+          <img
+            class="keyservicesimg"
+            src="images/home/mechanicalrepairshome.jpg"
+          />
+          <h1 class="keyservicestitle">Mechanical Repairs</h1>
+          <p class="keyservicestext">
+            From engine overhauls to system diagnostics, our expertise ensures
+            your cherished vehicle's longevity.
+          </p>
+        </div>
+        <div class="keyservicessection">
+          <img
+            class="keyservicesimg"
+            src="images/home/customizationshome.jpg"
+          />
+          <h1 class="keyservicestitle">Customization & Upgrades</h1>
+          <p class="keyservicestext">
+            Transform your classic beauty into a personalized masterpiece, where
+            every detail reflects your style and preferences with our bespoke
+            enhancement service.
+          </p>
+        </div>
+      </div>
+
+      <div class="otherpages">
+        <div class="otherpagessection">
+          <img
+            class="otherpagesimg"
+            id="pagesservicesimg"
+            src="images/home/services.png"
+          />
+          <div class="bigimagefilter"></div>
+          <h1 class="otherpagestitle" style="text-align: center">Services</h1>
+          <a class="otherpageslink" style="text-align: center" href="#"
+            >KNOW MORE</a
+          >
+        </div>
+        <div class="otherpagessection">
+          <img
+            class="otherpagesimg"
+            id="pagesworkshopimg"
+            src="images/home/workshopimg.png"
+          />
+          <div class="bigimagefilter"></div>
+          <h1 class="otherpagestitle" style="text-align: center">Workshop</h1>
+          <a class="otherpageslink" style="text-align: center" href="#"
+            >KNOW MORE</a
+          >
+        </div>
+        <div class="otherpagessection">
+          <img
+            class="otherpagesimg"
+            id="pagestestimoniesimg"
+            src="images/home/testimoniesimg.jpg"
+          />
+          <div class="bigimagefilter"></div>
+          <h1 class="otherpagestitle" style="text-align: center">
+            Testimonies
+          </h1>
+          <a class="otherpageslink" style="text-align: center" href="#"
+            >KNOW MORE</a
+          >
+        </div>
+      </div>
+
+      <div class="contactparagraph">
+        <h1>Reach out and let's make your classics last an eternity.</h1>
+        <a class="contactbutton" href="#">CONTACT US</a>
+      </div>
+    </content>
+
+    <footer>
+      <h1 class="mainlogo">Eternal Garage</h1>
+      <div class="newsletter">
+        <p>Subscribe to our newsletter!</p>
+        <form>
+          <input type="email" id="newsletteremail" label="newsletteremail" />
+          <input
+            type="submit"
+            id="newslettersubmit"
+            label="newslettersubmit"
+            value="SUBMIT"
+          />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
