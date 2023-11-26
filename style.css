@@ -379,4 +379,81 @@ footer h1 {
   font-weight: 400;
   font-size: 17.5px;
   margin-top: -10px;
+  margin-bottom: 70px;
+}
+
+.servicesection {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 3px solid #333333;
+}
+
+.serviceimage {
+  width: 100%;
+  position: absolute;
+  top: -30%;
+}
+
+.servicefilter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.servicetitle {
+  font-family: "Lora", serif;
+  width: 700px;
+  font-size: 68px;
+  font-weight: 500;
+  position: absolute;
+  color: white;
+  top: 5%;
+  left: 5%;
+  z-index: 3;
+}
+
+.servicetext {
+  font-family: "Lora", serif;
+  width: 400px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 5%;
+  z-index: 5;
+}
+
+.serviceimage.transport {
+  width: 100%;
+  position: absolute;
+  top: -60%;
+}
+
+.servicetitle.transport {
+  font-family: "Lora", serif;
+  width: 700px;
+  font-size: 68px;
+  font-weight: 500;
+  position: absolute;
+  color: white;
+  top: 5%;
+  left: auto;
+  right: -15%;
+  z-index: 3;
+}
+
+.servicetext.transport {
+  font-family: "Lora", serif;
+  width: 400px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: auto;
+  right: 5%;
+  z-index: 5;
 }
