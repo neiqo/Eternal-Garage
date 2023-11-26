@@ -1,6 +1,9 @@
+
 # Eternal Garage Company
 
-This project was created as a college assignment. The idea is to create a fictional vintage repair workshop company that wants to showcase and convey their services to potential clients through a website.
+The idea is to create a fictional vintage repair workshop company that wants to showcase and convey their services to potential clients through a static website.
+
+You can view the website here [https://neiqo.github.io/Eternal-Garage/](https://neiqo.github.io/Eternal-Garage/)
 
 # Wireframe
 
