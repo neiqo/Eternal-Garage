@@ -1,4 +1,3 @@
-
 # Eternal Garage Company
 
 The idea is to create a fictional vintage repair workshop company that wants to showcase and convey their services to potential clients through a static website.
@@ -11,4 +10,9 @@ The basic [wireframe](https://www.figma.com/file/URIvDRe6HgOInOLxWsqVdX/Eternal-
 
 ![Wireframe](https://i.imgur.com/uRqDfl7.png)
 
-##
+# Credits
+
+ - [Beyond Fireship](https://www.youtube.com/@beyondfireship)
+	 - JavaScript animations
+
+## 
