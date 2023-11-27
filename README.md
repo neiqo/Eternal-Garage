@@ -12,7 +12,7 @@ The basic [wireframe](https://www.figma.com/file/URIvDRe6HgOInOLxWsqVdX/Eternal-
 
 # Credits
 
- - [Beyond Fireship](https://www.youtube.com/@beyondfireship)
-	 - JavaScript animations
+- [Beyond Fireship](https://www.youtube.com/@beyondfireship)
+  - JavaScript animations
 
-## 
+##
