@@ -19,6 +19,7 @@
       href="images/website_icon/favicon-16x16.png"
     />
     <title>Eternal Garage - Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="services.css" type="text/css" />
     <style>
@@ -26,33 +27,24 @@
     </style>
   </head>
 
-  <body class="services">
+  <body>
     <header>
-      <h1 class="mainlogo">Eternal Garage</h1>
+      <div class="logo">
+        <h1 class="mainlogo">Eternal Garage</h1>
+      </div>
+
+      <input type="checkbox" id="nav-menu" /><label for="nav-menu">
+        <div onclick="navAnimation(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </label>
       <nav>
         <ul>
           <li class="navitem"><a href="index.html">Home</a></li>
-          <li class="navitem dropdown">
-            <a href="services.html"
-              >Services<span class="dropdown-icon"> ▼</span></a
-            >
-            <div class="dropdown-content fadein fadein-center">
-              <a href="#">Events</a>
-              <a href="#">Transport</a>
-              <a href="#">Training</a>
-            </div>
-          </li>
-          <li class="navitem dropdown">
-            <a href="workshop.html"
-              >Workshop<span class="dropdown-icon"> ▼</span></a
-            >
-            <div class="dropdown-content fadein fadein-center">
-              <a href="#">Complete Restoration</a>
-              <a href="#">Servicing & Maintenance</a>
-              <a href="#">Component Manufacture </a>
-            </div>
-          </li>
-
+          <li class="navitem"><a href="services.html">Services</a></li>
+          <li class="navitem"><a href="workshop.html">Workshop</a></li>
           <li class="navitem"><a href="#">Projects</a></li>
           <li class="navitem"><a href="about.html">About</a></li>
           <li class="navitem"><a href="#">Contact</a></li>
