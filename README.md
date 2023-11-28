@@ -12,7 +12,11 @@ The basic [wireframe](https://www.figma.com/file/URIvDRe6HgOInOLxWsqVdX/Eternal-
 
 # Credits
 
-- [Beyond Fireship](https://www.youtube.com/@beyondfireship)
-  - JavaScript animations
+ - [Beyond Fireship](https://www.youtube.com/@beyondfireship)
+	 - JavaScript animations
+ - [Mr. Web Designer](https://www.youtube.com/@MrWebDesignerAnas)
+	 - Responsive navigation bar
+ - [W3Schools](https://www.w3schools.com/)
+	 - Fixed header
 
-##
+## 
