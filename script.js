@@ -22,3 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(element);
   });
 });
+
+function navAnimation(x) {
+  x.classList.toggle("change");
+}
