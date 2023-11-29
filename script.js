@@ -32,3 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
 function navAnimation(x) {
   x.classList.toggle("change");
 }
+
+function changeImage(projectId, imageSource) {
+  const largeImage = document.getElementById(`largeImage${projectId}`);
+  largeImage.innerHTML = `<img src="${imageSource}" alt="Large Image">`;
+}
