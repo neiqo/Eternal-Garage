@@ -1,0 +1,23 @@
+.pagetitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Lora";
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.pagetitle h1 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 140px;
+}
+
+.pagetitle p {
+  width: 1200px;
+  font-weight: 400;
+  font-size: 17.5px;
+  margin-top: -10px;
+  margin-bottom: 70px;
+}
