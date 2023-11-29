@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link
       rel="apple-touch-icon"
@@ -33,13 +33,15 @@
         <h1 class="mainlogo">Eternal Garage</h1>
       </div>
 
-      <input type="checkbox" id="nav-menu" /><label for="nav-menu">
+      <input type="checkbox" id="nav-menu" />
+      <label for="nav-menu">
         <div onclick="navAnimation(this)">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
       </label>
+
       <nav>
         <ul>
           <li class="navitem"><a href="index.html">Home</a></li>
@@ -55,20 +57,169 @@
     <div class="pagetitle">
       <h1 class="fadein fadein-center">Our Projects</h1>
       <p class="fadein fadein-center">
-        Embark on a journey into the realm of bespoke automotive services, with
-        a focus on Events, Transport, and Training. Whether you seek exclusive
-        gatherings, secure transportation, or hands-on training experiences, our
-        passion for automotive heritage ensures a unique and unforgettable
-        adventure. Rely on our expertise to provide exceptional services,
-        turning your classic car encounters into a celebration of timeless
-        elegance.
+        Our projects page is a curated collection of timeless classics, each
+        meticulously restored to its former glory. From the iconic 1964 Alfa
+        Romeo Giulia Sprint Speciale, with its race-ready heritage, to the
+        rugged 1973 Land Rover Series 3, embodying off-road prowess, and the
+        elegant 1972 Porsche 911, a symbol of performance and design — each
+        project is a masterpiece, and each car tells a unique story. Immerse
+        yourself in the passion, craftsmanship, and dedication that define our
+        work, where every vehicle is a chapter in the rich history of automotive
+        excellence.
       </p>
     </div>
 
+    <div class="projects">
+      <div class="project" id="project1">
+        <div class="innerbox">
+          <h1 class="fadein">1964 Alfa Romeo Giulia Sprint Speciale</h1>
+          <div class="projectcontent">
+            <div class="imagegallery">
+              <div class="large-image" id="largeImageproject1">
+                <img src="images/projects/1964giulia-1.png" />
+              </div>
+              <div class="thumbnail-container">
+                <img
+                  src="images/projects/1964giulia-1.png"
+                  onclick="changeImage('project1', 'images/projects/1964giulia-1.png')"
+                />
+                <img
+                  src="images/projects/1964giulia-2.png"
+                  onclick="changeImage('project1', 'images/projects/1964giulia-2.png')"
+                />
+                <img
+                  src="images/projects/1964giulia-3.png"
+                  onclick="changeImage('project1', 'images/projects/1964giulia-3.png')"
+                />
+              </div>
+            </div>
+            <p class="fadein">
+              The blue 1964 Alfa Romeo Giulia Sprint Speciale, restored by
+              Eternal Garage, is a classic car icon. Designed by Franco
+              Scaglione of Bertone, it was a race-ready version of the
+              Giulietta, powered by a sophisticated Alfa Romeo DOHC inline
+              4-cylinder engine. Its design drew inspiration from the sleek
+              Carrozzeria Touring “Disco Volante” racing cars and Bertone’s
+              futuristic Berlina Aerodinamica Technica (BAT) experimental show
+              cars.<br /><br />
+
+              Eternal Garage’s restoration project preserved these unique
+              features while enhancing performance and comfort. The team
+              restored the car’s bodywork and overhauled the original engine,
+              ensuring it runs as smoothly and powerfully as it did in 1964.
+              <br /><br />
+
+              The interior was restored to its original glory, with premium
+              leather seats and meticulously refinished dashboard and trim
+              details. The result is a beautifully restored blue 1964 Alfa Romeo
+              Giulia Sprint Speciale that offers a driving experience that
+              rivals contemporary models.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="project2">
+        <div class="innerbox">
+          <h1 class="fadein">1973 Land Rover Series 3</h1>
+          <div class="projectcontent">
+            <div class="imagegallery">
+              <div class="large-image" id="largeImageproject2">
+                <img src="images/projects/1973-landrover-1.png" />
+              </div>
+              <div class="thumbnail-container">
+                <img
+                  src="images/projects/1973-landrover-1.png"
+                  onclick="changeImage('project2', 'images/projects/1973-landrover-1.png')"
+                />
+                <img
+                  src="images/projects/1973-landrover-2.png"
+                  onclick="changeImage('project2', 'images/projects/1973-landrover-2.png')"
+                />
+                <img
+                  src="images/projects/1973-landrover-3.png"
+                  onclick="changeImage('project2', 'images/projects/1973-landrover-3.png')"
+                />
+              </div>
+            </div>
+            <p class="fadein">
+              Eternal Garage undertook the restoration of a black 1973 Land
+              Rover Series 3, a vehicle renowned for its durability and off-road
+              prowess. The exterior was meticulously restored, preserving the
+              iconic silhouette and original black paint. Any signs of wear were
+              repaired, resulting in a vehicle that mirrors its original 1973
+              condition.<br /><br />
+
+              Under the hood, the original engine was overhauled. Each component
+              was checked and restored or replaced as necessary, ensuring the
+              vehicle runs as smoothly and reliably as it did in its prime.<br /><br />
+
+              The interior was also restored, with seats reupholstered in
+              premium leather and the dashboard and trim details refinished. The
+              result is a comfortable interior that stays true to the vehicle’s
+              utilitarian roots. The final product is a beautifully restored
+              black 1973 Land Rover Series 3, ready to take on any terrain just
+              like it did decades ago.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="project3">
+        <div class="innerbox">
+          <h1 class="fadein">1972 Porsche 911</h1>
+          <div class="projectcontent">
+            <div class="imagegallery">
+              <div class="large-image" id="largeImageproject3">
+                <img src="images/projects/porsche-1.png" />
+              </div>
+              <div class="thumbnail-container">
+                <img
+                  src="images/projects/porsche-1.png"
+                  onclick="changeImage('project3', 'images/projects/porsche-1.png')"
+                />
+                <img
+                  src="images/projects/porsche-2.png"
+                  onclick="changeImage('project3', 'images/projects/porsche-2.png')"
+                />
+                <img
+                  src="images/projects/porsche-3.png"
+                  onclick="changeImage('project3', 'images/projects/porsche-3.png')"
+                />
+              </div>
+            </div>
+            <p class="fadein">
+              The team embarked on a restoration project of a 1972 Porsche 911,
+              a car renowned for its performance and design. This particular
+              model, with its pale yellow paint job, is a testament to the
+              vibrant style of the 70s.<br /><br />
+
+              The exterior restoration preserved the car’s iconic silhouette and
+              the unique pale yellow paint, enhancing its vintage charm. The
+              original 2.4-litre flat-six engine, known for its power and
+              reliability, was meticulously overhauled. Each component was
+              checked and restored or replaced as necessary, ensuring the car
+              runs as smoothly and powerfully as it did in its prime.<br /><br />
+
+              Inside, the team restored the car’s interior, reupholstering the
+              seats in premium leather and refinishing the dashboard and trim
+              details. The result is a beautifully restored 1972 Porsche 911
+              that not only pays homage to its rich history but also offers a
+              driving experience that rivals contemporary models. This project
+              stands as a testament to the team’s passion for classic cars and
+              their commitment to preserving their beauty and performance for
+              future generations to appreciate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="contactparagraph fadein fadein-center">
-      <h1>Crafting unforgettable moments with our bespoke services.</h1>
+      <h1>Each project a masterpiece, each car a story.</h1>
       <a class="contactbutton fadein fadein-center" href="#">CONTACT US</a>
     </div>
+
     <footer>
       <h1 class="mainlogo">Eternal Garage</h1>
       <div class="newsletter">
@@ -84,6 +235,7 @@
         </form>
       </div>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
