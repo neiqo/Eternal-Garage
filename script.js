@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll(".fadein");
+  const elements = document.querySelectorAll(
+    ".fadein, .fadein-center, .fadein-right"
+  );
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -11,6 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
           if (entry.target.classList.contains("fadein-center")) {
             entry.target.classList.add("fadein-center-animated");
+          }
+
+          if (entry.target.classList.contains("fadein-right")) {
+            entry.target.classList.add("fadein-right-animated");
           }
         }
       });
