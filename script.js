@@ -1,3 +1,4 @@
+// Fadein animation
 document.addEventListener("DOMContentLoaded", function () {
   const elements = document.querySelectorAll(
     ".fadein, .fadein-center, .fadein-right"
@@ -29,10 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// nav hamburger menu button animation
 function navAnimation(x) {
   x.classList.toggle("change");
 }
 
+// projects image gallery
 function changeImage(projectId, imageSource) {
   const largeImage = document.getElementById(`largeImage${projectId}`);
   largeImage.innerHTML = `<img src="${imageSource}" alt="Large Image">`;
