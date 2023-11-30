@@ -40,3 +40,17 @@ function changeImage(projectId, imageSource) {
   const largeImage = document.getElementById(`largeImage${projectId}`);
   largeImage.innerHTML = `<img src="${imageSource}" alt="Large Image">`;
 }
+
+// footer email validation
+function validateEmail() {
+  const emailInput = document.getElementById("newsletteremail");
+  const emailFormat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (emailFormat.test(emailInput.value)) {
+    // Valid email format
+    alert("Subscription Successful!");
+  } else {
+    // Invalid email format
+    alert("Please enter a valid email address.");
+  }
+}

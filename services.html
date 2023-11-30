@@ -126,18 +126,15 @@
       >
     </div>
     <footer>
-      <h1 class="mainlogo">Eternal Garage</h1>
+      <h1 class="footerlogo">Eternal Garage</h1>
       <div class="newsletter">
         <p>Subscribe to our newsletter!</p>
-        <form>
-          <input type="email" id="newsletteremail" label="newsletteremail" />
-          <input
-            type="submit"
-            id="newslettersubmit"
-            label="newslettersubmit"
-            value="SUBMIT"
-          />
-        </form>
+        <input
+          type="email"
+          id="newsletteremail"
+          placeholder="Enter your email"
+        />
+        <button id="newslettersubmit" onclick="validateEmail()">SUBMIT</button>
       </div>
     </footer>
     <script src="script.js"></script>

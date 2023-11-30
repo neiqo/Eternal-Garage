@@ -140,7 +140,13 @@ footer {
   height: 150px;
 }
 
-footer h1 {
+.footerlogo {
+  color: black;
+  text-align: center;
+  font-family: "Noto Naskh Arabic", serif;
+  font-family: "Red Rose", serif;
+  font-weight: 700;
+  font-size: 45px;
   border-right: 3px solid #333333;
   padding-top: 25px;
   padding-right: 40px;
@@ -173,6 +179,7 @@ footer h1 {
   font-family: "Lexend Zetta";
   font-size: 15px;
   margin-top: 10px;
+  padding: 4px;
   border: 2px solid #333333;
   transition: 0.3s;
 }
@@ -283,6 +290,59 @@ footer h1 {
   .contactparagraph a {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 4px solid #333333;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+  }
+
+  .footerlogo {
+    color: black;
+    text-align: center;
+    font-family: "Noto Naskh Arabic", serif;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    font-size: 45px;
+    border-right: none;
+    border-bottom: 3px solid #333333;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+
+  .newsletter {
+    margin-left: 0;
+    font-family: "Lexend Zetta";
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+  }
+
+  #newsletteremail {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 60%;
+    height: 25px;
+    border: 2px solid #333333;
+  }
+
+  #newslettersubmit {
+    font-family: "Lexend Zetta";
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 4px;
+    border: 2px solid #333333;
+    transition: 0.3s;
   }
 }
 
