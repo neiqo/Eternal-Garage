@@ -73,7 +73,6 @@
 .large-image img {
   width: 100%;
   height: auto;
-  transition: opacity 0.3s ease-in-out;
   border: 2px solid #333333;
 }
 
