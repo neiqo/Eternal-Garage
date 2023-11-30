@@ -5,21 +5,13 @@
   text-align: center;
   font-family: "Lora";
   margin: auto;
-  margin-bottom: 20px;
 }
 
 .pagetitle h1 {
   font-size: 35px;
   font-weight: 500;
   margin-top: 140px;
-}
-
-.pagetitle p {
-  width: 1200px;
-  font-weight: 400;
-  font-size: 17.5px;
-  margin-top: -10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .contactinfo {
@@ -29,18 +21,21 @@
   width: 40%;
   border: 4px solid #333333;
   justify-content: center;
-  align-items: left;
+  align-items: center;
 }
 
 .contactcontent {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: -10px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .contactcontent h1 {
   font-size: 30px;
+  margin-top: -50px;
 }
 .contactcontent h2 {
   font-size: 20px;
@@ -61,4 +56,89 @@
 
 .location {
   border: 4px solid #333333;
+  width: 600px;
+  height: 450px;
+}
+
+.locationmap {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .contactsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .contactinfo {
+    font-family: "Lora";
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 4px solid #333333;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+  }
+
+  .contactdetail {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .contactcontent h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .location {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .pagetitle h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .contactinfo {
+    font-family: "Lora";
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 4px solid #333333;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+  }
+
+  .contactdetail {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .contactcontent h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .location {
+    width: 90%;
+    margin: auto;
+  }
 }

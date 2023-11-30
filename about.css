@@ -14,7 +14,7 @@
 }
 
 .pagetitle p {
-  width: 1200px;
+  width: 78.534%;
   font-weight: 400;
   font-size: 17.5px;
   margin-top: -10px;
@@ -120,9 +120,8 @@
   }
 
   .card {
-    width: 85%;
-    padding-left: 80px;
-    padding-right: 50px;
+    width: 90%;
+    padding-left: 40px;
     padding-bottom: 20px;
   }
 

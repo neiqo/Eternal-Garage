@@ -5,7 +5,6 @@
   text-align: center;
   font-family: "Lora";
   margin: auto;
-  margin-bottom: 20px;
 }
 
 .pagetitle h1 {
@@ -15,7 +14,7 @@
 }
 
 .pagetitle p {
-  width: 1200px;
+  width: 78.534%;
   font-weight: 400;
   font-size: 17.5px;
   margin-top: -10px;
@@ -41,12 +40,14 @@
   box-shadow: 0 0px 10px rgba(0, 0, 0, 1);
 }
 
-.workshoptext {
+.workshoptext,
+.maintenancetext {
   margin-top: -25px;
-  width: 450px;
+  width: 40;
 }
 
 img {
+  width: 100%;
   border: 4px solid #333333;
   transition: 0.3s;
 }
@@ -57,14 +58,35 @@ img:hover {
 
 .restorationimg {
   margin-left: 50px;
-  width: 600px;
+  width: 50%;
 }
 
 .maintenanceimg {
-  margin-right: 50px;
-  width: 600px;
+  margin-left: 50px;
+  width: 50%;
 }
 
 img:hover {
   box-shadow: 0 0px 10px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 1400px) {
+  .workshopsection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .workshopsection .servicingmain {
+    flex-direction: row;
+  }
+
+  .restorationimg {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .maintenanceimg {
+    margin-left: 0;
+    width: 100%;
+  }
 }

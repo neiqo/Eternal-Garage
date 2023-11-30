@@ -179,6 +179,23 @@
     top: 30%;
   }
 
+  .otherpageslink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .pagesservicesimg {
+    height: 100vw;
+    width: 100vw;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .otherpages {
+    flex-direction: column;
+  }
+
   .keyservices-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -190,13 +207,5 @@
   .keyservices::-webkit-scrollbar {
     display: none;
     align-items: center;
-  }
-
-  .otherpages {
-    flex-direction: column;
-  }
-  .otherpageslink {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }

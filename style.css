@@ -73,12 +73,14 @@ nav ul {
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  margin: 0;
+  padding: 0;
   margin-top: -5px;
 }
 
 .navitem {
   display: inline-block;
-  margin: 0 70px;
+  margin: 0 50px;
   border-radius: 1px;
   position: relative;
 }
@@ -90,8 +92,9 @@ nav ul {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding: 5px 10px; /* Adjust padding for spacing */
+  padding-top: 0;
+  padding-bottom: 0;
   border: 2px solid transparent;
   transition: 0.3s;
 }
@@ -113,7 +116,6 @@ nav ul {
   text-decoration: none;
   text-align: center;
   color: black;
-  padding: px;
   padding-left: 5px;
   padding-right: 5px;
   background-color: #e0e0e0;
@@ -227,18 +229,6 @@ footer h1 {
     height: 65px;
   }
 
-  .dropdown-content {
-    position: relative;
-    background-color: #333333;
-    top: 50%;
-    left: 20px;
-    z-index: 3; /* Increase z-index to 3 */
-  }
-
-  .dropdown-content a {
-    line-height: 1;
-  }
-
   .dropdown-content a:hover {
     background-color: #add8e64c;
   }
@@ -247,25 +237,33 @@ footer h1 {
     top: 235%;
     position: absolute;
     padding-top: 0;
-    margin-top: -80px;
+    margin-top: -85px;
     z-index: 5; /* Set z-index to 1 */
   }
-
   nav ul {
+    display: flex;
+    align-items: center;
     height: 100vh;
+    width: 100vw;
     flex-direction: column;
     background-color: #333333;
-    margin-bottom: 100px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
   }
 
   .navitem {
-    height: 80px;
-    line-height: 50px;
+    height: 60px; /* Adjusted height for better spacing */
+    line-height: 60px; /* Adjusted line-height for better spacing */
+    text-align: center;
+    margin: 10px 0;
   }
 
   .navitem a {
     color: white;
-    padding: 20px;
+    padding: 0 10px; /* Adjusted padding for better spacing */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
   }
 
   #nav-menu:checked ~ nav {
@@ -285,5 +283,24 @@ footer h1 {
   .contactparagraph a {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navitem {
+    margin: 20px 0;
+  }
+
+  .navitem a {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .nav ul {
+    padding: 0;
+  }
+
+  .contactparagraph h1 {
+    font-size: 30px;
   }
 }
