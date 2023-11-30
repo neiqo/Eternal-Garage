@@ -15,7 +15,7 @@
 }
 
 .pagetitle p {
-  width: 1200px;
+  width: 78.534%;
   font-weight: 400;
   font-size: 17.5px;
   margin-top: -10px;
@@ -96,4 +96,41 @@
   left: auto;
   right: 5%;
   z-index: 5;
+}
+
+@media screen and (max-width: 1400px) {
+  .serviceimage {
+    height: 150%;
+    object-fit: cover;
+  }
+
+  .serviceimage.transport {
+    height: 200%;
+    object-fit: cover;
+  }
+
+  .servicetext {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .servicetitle.transport {
+    font-family: "Lora", serif;
+    width: 700px;
+    font-size: 68px;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 5%;
+    z-index: 3;
+  }
+
+  .servicetext.transport {
+    width: 80%;
+    font-size: 15px;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+  }
 }
