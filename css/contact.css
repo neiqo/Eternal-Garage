@@ -1,3 +1,5 @@
+/* Contact Page */
+
 .pagetitle {
   display: flex;
   flex-direction: column;
@@ -32,7 +34,6 @@ body.dark-mode .contactinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: -10px;
   margin: auto;
   padding-left: 30px;
   padding-right: 30px;
@@ -168,6 +169,12 @@ body.dark-mode #subject {
   border: 2px solid #333333;
   transition: 0.3s;
   margin: auto;
+  cursor: pointer;
+}
+
+#messagesubmit:hover {
+  background-color: #add8e6;
+  border: 2px solid #add8e6;
 }
 
 @media screen and (max-width: 1400px) {

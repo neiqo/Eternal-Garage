@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link
       rel="apple-touch-icon"
@@ -21,7 +21,7 @@
     <title>Eternal Garage - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/index.css" type="text/css" \ />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
     </style>
@@ -37,8 +37,9 @@
       <div class="logo">
         <h1 class="mainlogo">Eternal Garage</h1>
       </div>
-      <input type="checkbox" id="nav-menu" /><label for="nav-menu">
-        <div onclick="navAnimation(this)">
+      <input type="checkbox" id="nav-menu" />
+      <label for="nav-menu" onclick="navAnimation(this)">
+        <div>
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
@@ -55,8 +56,13 @@
         </ul>
       </nav>
     </header>
+
     <div class="bigimagesection">
-      <img class="bigimage" src="images/home/carcollection.jpeg" />
+      <img
+        class="bigimage"
+        src="images/home/carcollection.jpeg"
+        alt="Car Collection"
+      />
       <div class="bigimagefilter"></div>
       <div class="bigimagetext fadein">
         We don't just fix cars, we revive legends.
@@ -68,23 +74,29 @@
       <p class="fadein">
         In the heart of Eternal Garage, our mission extends beyond the
         mechanical realm; it's a commitment to "Preserving History, Creating
-        Eternity." <br /><br />Here, we embrace the profound responsibility of
-        safeguarding the rich heritage of classic automobiles. Each vintage car
-        that graces our workshop is not just a mode of transportation; it's a
-        living chronicle of automotive history waiting to be unveiled. Through
-        meticulous restoration and craftsmanship, we breathe new life into these
-        time-worn legends, reviving their essence and perpetuating their stories
-        for generations to come. <br /><br />Our workshop is a testament to the
-        enduring legacy of classic cars, where the echoes of the past resonate
-        with every turn of the wrench and the gentle hum of revitalization.
+        Eternity."
+        <br /><br />
+        Here, we embrace the profound responsibility of safeguarding the rich
+        heritage of classic automobiles. Each vintage car that graces our
+        workshop is not just a mode of transportation; it's a living chronicle
+        of automotive history waiting to be unveiled. Through meticulous
+        restoration and craftsmanship, we breathe new life into these time-worn
+        legends, reviving their essence and perpetuating their stories for
+        generations to come.
+        <br /><br />
+        Our workshop is a testament to the enduring legacy of classic cars,
+        where the echoes of the past resonate with every turn of the wrench and
+        the gentle hum of revitalization.
       </p>
     </div>
+
     <div class="keyservices-container">
       <div class="keyservices fadein fadein-center">
         <div class="keyservicessection">
           <img
             class="keyservicesimg"
             src="images/home/completerestorationhome.jpg"
+            alt="Complete Restoration"
           />
           <h1 class="keyservicestitle">Complete Restoration</h1>
           <p class="keyservicestext">
@@ -97,6 +109,7 @@
           <img
             class="keyservicesimg"
             src="images/home/mechanicalrepairshome.jpg"
+            alt="Mechanical Repairs"
           />
           <h1 class="keyservicestitle">Mechanical Repairs</h1>
           <p class="keyservicestext">
@@ -108,6 +121,7 @@
           <img
             class="keyservicesimg"
             src="images/home/customizationshome.jpg"
+            alt="Customization & Upgrades"
           />
           <h1 class="keyservicestitle">Customization & Upgrades</h1>
           <p class="keyservicestext">
@@ -125,6 +139,7 @@
           class="otherpagesimg"
           id="pagesservicesimg"
           src="images/home/services.png"
+          alt="Services Image"
         />
         <div class="bigimagefilter"></div>
         <h1
@@ -145,6 +160,7 @@
           class="otherpagesimg"
           id="pagesworkshopimg"
           src="images/home/workshopimg.png"
+          alt="Workshop Image"
         />
         <div class="bigimagefilter"></div>
         <h1
@@ -165,6 +181,7 @@
           class="otherpagesimg"
           id="pagestestimoniesimg"
           src="images/home/testimoniesimg.jpg"
+          alt="Testimonies Image"
         />
         <div class="bigimagefilter"></div>
         <h1
@@ -201,12 +218,14 @@
         <button id="newslettersubmit" onclick="validateEmail()">SUBMIT</button>
       </div>
     </footer>
+
     <div id="dark-mode-toggle">
       <img
         src="https://www.svgrepo.com/show/309493/dark-theme.svg"
         alt="Dark Mode Toggle"
       />
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

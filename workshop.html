@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -19,9 +21,8 @@
       href="images/website_icon/favicon-16x16.png"
     />
     <title>Eternal Garage - Workshop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/workshop.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/workshop.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
     </style>
@@ -38,13 +39,15 @@
         <h1 class="mainlogo">Eternal Garage</h1>
       </div>
 
-      <input type="checkbox" id="nav-menu" /><label for="nav-menu">
+      <input type="checkbox" id="nav-menu" />
+      <label for="nav-menu">
         <div onclick="navAnimation(this)">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
       </label>
+
       <nav>
         <ul>
           <li class="navitem"><a href="index.html">Home</a></li>
@@ -90,6 +93,7 @@
       <img
         class="restorationimg sectionimg"
         src="images/workshop/completerestoration.png"
+        alt="Complete Restoration Image"
       />
     </div>
 
@@ -115,6 +119,7 @@
       <img
         class="maintenanceimg sectionimg"
         src="images/workshop/servicing.png"
+        alt="Servicing & Maintenance Image"
       />
     </div>
 
@@ -140,14 +145,17 @@
       <img
         class="restorationimg sectionimg"
         src="images/workshop/partsmanufacture.png"
+        alt="Component Manufacture Image"
       />
     </div>
+
     <div class="contactparagraph fadein fadein-center">
       <h1>Revive the past, design the future.</h1>
       <a class="contactbutton fadein fadein-center" href="contact.html"
         >CONTACT US</a
       >
     </div>
+
     <footer>
       <h1 class="footerlogo">Eternal Garage</h1>
       <div class="newsletter">
@@ -160,12 +168,14 @@
         <button id="newslettersubmit" onclick="validateEmail()">SUBMIT</button>
       </div>
     </footer>
+
     <div id="dark-mode-toggle">
       <img
         src="https://www.svgrepo.com/show/309493/dark-theme.svg"
         alt="Dark Mode Toggle"
       />
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

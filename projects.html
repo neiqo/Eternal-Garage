@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -19,9 +21,8 @@
       href="images/website_icon/favicon-16x16.png"
     />
     <title>Eternal Garage - Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/projects.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
     </style>
@@ -81,20 +82,26 @@
           <div class="projectcontent">
             <div class="imagegallery">
               <div class="large-image" id="largeImageproject1">
-                <img src="images/projects/1964giulia-1.png" />
+                <img
+                  src="images/projects/1964giulia-1.png"
+                  alt="Project 1 Image 1"
+                />
               </div>
               <div class="thumbnail-container">
                 <img
                   src="images/projects/1964giulia-1.png"
                   onclick="changeImage('project1', 'images/projects/1964giulia-1.png')"
+                  alt="Thumbnail 1"
                 />
                 <img
                   src="images/projects/1964giulia-2.png"
                   onclick="changeImage('project1', 'images/projects/1964giulia-2.png')"
+                  alt="Thumbnail 2"
                 />
                 <img
                   src="images/projects/1964giulia-3.png"
                   onclick="changeImage('project1', 'images/projects/1964giulia-3.png')"
+                  alt="Thumbnail 3"
                 />
               </div>
             </div>
@@ -130,20 +137,26 @@
           <div class="projectcontent">
             <div class="imagegallery">
               <div class="large-image" id="largeImageproject2">
-                <img src="images/projects/1973-landrover-1.png" />
+                <img
+                  src="images/projects/1973-landrover-1.png"
+                  alt="Project 2 Image 1"
+                />
               </div>
               <div class="thumbnail-container">
                 <img
                   src="images/projects/1973-landrover-1.png"
                   onclick="changeImage('project2', 'images/projects/1973-landrover-1.png')"
+                  alt="Thumbnail 1"
                 />
                 <img
                   src="images/projects/1973-landrover-2.png"
                   onclick="changeImage('project2', 'images/projects/1973-landrover-2.png')"
+                  alt="Thumbnail 2"
                 />
                 <img
                   src="images/projects/1973-landrover-3.png"
                   onclick="changeImage('project2', 'images/projects/1973-landrover-3.png')"
+                  alt="Thumbnail 3"
                 />
               </div>
             </div>
@@ -176,20 +189,26 @@
           <div class="projectcontent">
             <div class="imagegallery">
               <div class="large-image" id="largeImageproject3">
-                <img src="images/projects/porsche-1.png" />
+                <img
+                  src="images/projects/porsche-1.png"
+                  alt="Project 3 Image 1"
+                />
               </div>
               <div class="thumbnail-container">
                 <img
                   src="images/projects/porsche-1.png"
                   onclick="changeImage('project3', 'images/projects/porsche-1.png')"
+                  alt="Thumbnail 1"
                 />
                 <img
                   src="images/projects/porsche-2.png"
                   onclick="changeImage('project3', 'images/projects/porsche-2.png')"
+                  alt="Thumbnail 2"
                 />
                 <img
                   src="images/projects/porsche-3.png"
                   onclick="changeImage('project3', 'images/projects/porsche-3.png')"
+                  alt="Thumbnail 3"
                 />
               </div>
             </div>
@@ -239,12 +258,14 @@
         <button id="newslettersubmit" onclick="validateEmail()">SUBMIT</button>
       </div>
     </footer>
+
     <div id="dark-mode-toggle">
       <img
         src="https://www.svgrepo.com/show/309493/dark-theme.svg"
         alt="Dark Mode Toggle"
       />
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
