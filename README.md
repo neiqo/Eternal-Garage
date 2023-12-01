@@ -1,6 +1,12 @@
 # Eternal Garage Company
 
-The idea is to create a fictional vintage repair workshop company that wants to showcase and convey their services to potential clients through a static website.
+The idea is to create a website for "Eternal Garage" to increase their number of clients who are classic car collectors and car enthusiasts. The website's main purpose is to showcase the company's projects, services, workshop and history. 
+
+The website caters to a variety of users that are interested in classic cars. 
+For classic car collectors, the website showcases the completed projects and specialization of the company in restoring classic cars.
+Event organizers and businesses can discover the services section to secure transportation options and view the past event clients of the company.
+
+As a online virtual showroom, the website serves as a way for potential clients to explore the company's portfolio of projects, specialized services and workshop facilities.
 
 You can view the website here [https://neiqo.github.io/Eternal-Garage/](https://neiqo.github.io/Eternal-Garage/)
 
@@ -13,10 +19,8 @@ The basic [wireframe](https://www.figma.com/file/URIvDRe6HgOInOLxWsqVdX/Eternal-
 # Credits
 
  - [Beyond Fireship](https://www.youtube.com/@beyondfireship)
-	 - JavaScript animations
  - [Mr. Web Designer](https://www.youtube.com/@MrWebDesignerAnas)
-	 - Responsive navigation bar
  - [W3Schools](https://www.w3schools.com/)
-	 - Fixed header
+ - [GreatStack](https://www.youtube.com/@GreatStackDev)
 
 ## 
