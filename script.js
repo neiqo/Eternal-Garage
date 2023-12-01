@@ -54,3 +54,19 @@ function validateEmail() {
     alert("Please enter a valid email address.");
   }
 }
+
+//loading
+
+document.addEventListener("DOMContentLoaded", function () {
+  const loadingScreen = document.getElementById("loading-screen");
+
+  // Add a delay to the fadeout animation
+  setTimeout(function () {
+    loadingScreen.classList.add("fadeout");
+  }, 500); // You can adjust the delay time (in milliseconds) as needed
+
+  // Hide the loading screen after the animation completes
+  loadingScreen.addEventListener("animationend", function () {
+    loadingScreen.style.display = "none";
+  });
+});
