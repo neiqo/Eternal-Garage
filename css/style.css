@@ -28,7 +28,7 @@ body.dark-mode {
 #dark-mode-toggle img {
   width: 80%;
   height: auto;
-  filter: invert(1); /* Invert the color of the SVG for light-on-dark effect */
+  filter: invert(1);
 }
 
 .mainlogo {
