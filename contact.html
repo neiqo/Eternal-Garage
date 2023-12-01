@@ -92,6 +92,36 @@
       </div>
     </div>
 
+    <div class="contactformsection">
+      <h1 class="contacttitle">Reach Out</h1>
+      <form class="contact-form fadein">
+        <div class="userdetails">
+          <div class="userfullname">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required />
+          </div>
+          <div class="useremail">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+
+        <div class="usermessage">
+          <div class="usersubject">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="usertext">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+        </div>
+        <button type="button" id="messagesubmit" onclick="submitForm()">
+          SUBMIT
+        </button>
+      </form>
+    </div>
+
     <footer>
       <h1 class="footerlogo">Eternal Garage</h1>
       <div class="newsletter">
