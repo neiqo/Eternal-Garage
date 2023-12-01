@@ -80,6 +80,10 @@
   box-shadow: 0 0px 7px rgba(0, 0, 0, 0.5);
 }
 
+body.dark-mode .keyservicessection {
+  border-color: white;
+}
+
 .keyservicesimg {
   width: 90%;
 }

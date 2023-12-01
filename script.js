@@ -73,26 +73,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // contact us form
 function submitForm() {
-  // Get form values
   const fullName = document.getElementById("full-name").value;
   const email = document.getElementById("email").value;
   const subject = document.getElementById("subject").value;
   const message = document.getElementById("message").value;
 
-  // Basic validation to check if any field is empty
   if (!fullName || !email || !subject || !message) {
     alert("Please fill out all sections of the form.");
     return;
   }
 
-  // Email format validation using a regular expression
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
     alert("Please enter a valid email address.");
     return;
   }
 
-  // Create an object to represent the form submission
   const formSubmission = {
     fullName,
     email,
@@ -101,19 +97,34 @@ function submitForm() {
     timestamp: new Date().toISOString(),
   };
 
-  // Retrieve existing form submissions from local storage
   const formSubmissions =
     JSON.parse(localStorage.getItem("formSubmissions")) || [];
 
-  // Add the new submission to the array
   formSubmissions.push(formSubmission);
 
-  // Save the updated array back to local storage
   localStorage.setItem("formSubmissions", JSON.stringify(formSubmissions));
 
-  // Clear the form fields after successful submission
   document.getElementById("contact-form").reset();
 
-  // Display a success message or perform other actions as needed
   alert("Form submitted successfully!");
 }
+
+// darkmode
+document.addEventListener("DOMContentLoaded", function () {
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  const body = document.body;
+
+  const isDarkMode = localStorage.getItem("darkMode") === "true";
+
+  setDarkMode(isDarkMode);
+
+  darkModeToggle.addEventListener("click", function () {
+    const newDarkMode = !body.classList.contains("dark-mode");
+    setDarkMode(newDarkMode);
+    localStorage.setItem("darkMode", newDarkMode);
+  });
+
+  function setDarkMode(isDarkMode) {
+    body.classList.toggle("dark-mode", isDarkMode);
+  }
+});

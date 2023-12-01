@@ -47,6 +47,10 @@
   transition: 0.3s;
 }
 
+body.dark-mode .innerbox {
+  border-color: #f5f5f5;
+}
+
 .innerbox:hover {
   box-shadow: 0 0px 10px rgba(0, 0, 0, 1);
 }
@@ -78,6 +82,10 @@
   border: 2px solid #333333;
 }
 
+body.dark-mode .large-image img {
+  border-color: #f5f5f5;
+}
+
 .thumbnail-container {
   margin-bottom: -0.5%;
 }
@@ -87,6 +95,10 @@
   cursor: pointer;
   border: 2px solid #333333;
   transition: 0.3s;
+}
+
+body.dark-mode .thumbnail-container img {
+  border-color: #f5f5f5;
 }
 
 .thumbnail-container img:hover {
